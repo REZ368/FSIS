@@ -1,0 +1,10 @@
+CREATE DATABASE dbfsis;
+
+USE dbfsis;
+
+CREATE TABLE fruits (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    quantity INT NOT NULL,
+    price DOUBLE NOT NULL
+);
